@@ -1,0 +1,1962 @@
+*,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Roboto-Condensed;
+    src: url(RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoCondensed Bold';
+    src: url(RobotoCondensed-Bold.ttf);
+}
+
+* {
+    font-family: Roboto-Condensed;
+}
+
+header,
+section {
+    display: block;
+}
+
+/*background image*/
+
+.abus-background {
+    position: relative;
+    /*box-sizing: border-box;*/
+    height: 100vh;
+    background-image: url(img/AboutUs02.jpg);
+    background-size: 100% 100%;
+}
+
+.abus-menu {
+    position: absolute;
+    color: white;
+    width: 100%;
+    /*z-index: 9999;*/
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    transition: all 1s;
+}
+
+/*menu reponsive*/
+.abus-menu-2 ul {
+
+    margin-top: 20px;
+    text-align: center;
+}
+
+.abus-menu-2 li {
+    display: inline;
+    margin-right: 15px;
+
+}
+
+.abus-menu-2 a {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/**/
+.abus-logo {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.abus-logo img {
+    float: left;
+    height: 60px;
+}
+
+.abus-logo h6 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.abus-flag {
+    position: absolute;
+    top: 20px;
+    text-align: right;
+    right: 1%;
+}
+
+.abus-nav {
+    content: '';
+    clear: both;
+}
+
+.abus-nav ul {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.abus-nav li {
+    display: inline;
+    margin-right: 2%;
+}
+
+.abus-nav a {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.abus-text {
+    position: absolute;
+    right: 2%;
+    height: auto;
+    display: block;
+    bottom: 5%;
+
+}
+
+.abus-text span {
+    text-align: right;
+    font-weight: bold;
+    font-size: 3.5em;
+    display: block;
+    font-family: 'RobotoCondensed-Bold';
+    color: #FCFF90;
+    line-height: normal;
+}
+
+.abus-text p {
+    font-size: 100%;
+    color: #fff;
+    font-size: 1em;
+}
+
+/*Menu 2 scroll*/
+#abus-menu-s2 {
+
+    background-color: white;
+    color: black;
+}
+
+.abus-menu-2 {
+    display: none;
+    top: 0;
+    position: fixed;
+    z-index: 9999999999999999999999;
+    width: 100%;
+
+}
+
+.abus-nav-2 ul {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.abus-nav-2 li {
+    display: inline;
+    margin-right: 1%;
+
+}
+
+.abus-nav-2 a {
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/*-----Glance At-------*/
+.abus-glance {
+
+    width: 100%;
+    /*display: table;*/
+}
+
+/*Glance at left*/
+.abus-glance-left {
+    padding: 0 !important;
+    margin: 0 !important;
+    /*height: 100vh;*/
+    /*width: 25%;*/
+    /*display: table-cell;*/
+
+}
+
+.abus-glance-box {
+
+
+    width: 100%;
+    height: 300px;
+
+}
+
+.abus-glance-box ul {
+    overflow: auto;
+    /*background-color: orangered;*/
+
+    width: 80%;
+    margin-top: 25% !important;
+    margin: auto;
+
+}
+
+.abus-glance-box ul li {
+    list-style: none;
+    display: list-item;
+    width: 100%;
+    line-height: 35px;
+    position: relative;
+}
+
+.abus-glance-box ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.abus-blue-li {
+    background-color: rgba(43, 172, 226, 1);
+    padding-left: 5%;
+    height: 35px;
+
+}
+
+.abus-blue-li a h6 {
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 1.1em;
+    padding-top: 3%;
+}
+.abus-glance-box li a:hover{
+    /*color: yellow;*/
+}
+.abus-border {
+    width: 100%;
+    border-bottom: 1px dashed rgba(15, 15, 15, 0.49);
+}
+
+.abus-border a {
+    margin-left: 6%;
+    font-size: large;
+}
+
+/*make a triangle*/
+.abus-triangle {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 6px solid rgba(43, 172, 226, 1);
+    display: inline-block;
+}
+
+/* right col of abus*/
+.abus-glance-right {
+    height: 100vh;
+    /*width: 75%;*/
+    /*display: table-cell;*/
+    /*vertical-align: top;*/
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.abus-glance-right span {
+    display: block;
+    font-size: 4em;
+    font-family: "RobotoCondensed Bold";
+    margin-top: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1%;
+    color: rgba(44, 172, 226, 1);
+}
+
+.abus-glance-right img {
+    display: block;
+    height: 70vh;
+    float: left;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+/*Introduction*/
+.abus-introduction {
+    background-color: rgba(43, 172, 226, 1);
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.abus-introduction {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.abus-introduction span {
+    font-size: 3.5em;
+    /*z-index: 9;*/
+    /*background-color: yellow;*/
+    color: rgba(252, 255, 144, 1);
+    text-align: center;
+    display: block;
+    font-family: "RobotoCondensed Bold RobotoCondensed";
+}
+
+.abus-info p {
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.1em;
+    color: white;
+    line-height: 20px;
+}
+
+.abus-historic {
+    margin-top: 3%;
+    position: absolute;
+
+}
+
+.abus-row {
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    height: 10vh;
+
+}
+
+.abus.abus-Established {
+    display: block;
+    float: left;
+    height: 10vh;
+
+}
+
+.abus-Established span {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.abus-Established p {
+    text-align: left;
+    margin: 0;
+}
+
+/*Background img fixed*/
+.clear-float {
+    content: '';
+    clear: both;
+}
+
+.abus-backgroundImg {
+    background-image: url("img/Miss.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    display: inline-block;
+}
+
+.abus-backgroundImg span {
+    color: #FCFF90;
+    font-size: 3.5em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 2% auto;
+    font-weight: bold;
+}
+
+/*Fixed Vision*/
+.abus-vision {
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0;
+}
+
+.abus-vision img {
+    width: 40%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.abus-insideOut {
+    width: 60%;
+    background-color: white;
+    position: relative;
+}
+
+.abus-MTP {
+    height: 50%;
+    display: block;
+    background-color: white;
+    position: relative;
+}
+
+.abus-MTP p {
+    text-align: left;
+
+    width: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1em;
+    position: absolute;
+    left: 50%;
+    font-weight: bold;
+}
+
+.abus-Sky {
+    height: 50%;
+    display: block;
+    background-color: white;
+    position: relative;
+    background-color: #2BACE2;
+}
+
+.abus-Sky p {
+
+    text-align: left;
+    color: white;
+    width: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1em;
+    position: absolute;
+    left: 50%;
+
+}
+
+/*Fixed Mission*/
+.abus-mission {
+
+    width: 80%;
+    display: flex;
+    overflow: hidden;
+    margin: auto !important;
+    border-radius: 10px;
+    margin-bottom: 5% !important;
+
+}
+
+.abus-mission img {
+    width: 40%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.mission-left {
+    width: 80%;
+    margin: 0 auto;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;*/
+}
+
+.mission-left span {
+    color: #2BACE2;
+    display: block;
+    font-size: 1.3em;
+    height: 50%;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.mission-left li {
+    list-style-type: circle;
+    margin-top: 4%;
+    font-size: 1.1em;
+    font-family: RobotoCondensed;
+    font-weight: lighter;
+}
+
+.mission-left li > span {
+    color: rgba(15, 15, 15, 0.9);
+    font-family: "RobotoCondensed Bold";
+    font-size: 1.1em;
+    display: inline;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+/*---history---*/
+.abus-his-all {
+    padding-top: 3%;
+    color: #2BACE2;
+    height: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.abus-his-info {
+    background-image: url("img/history.jpg.jpg");
+    background-size: 100% 100%;
+    /*background-position: center center;*/
+    max-width: 100%;
+    height: 70vh;
+
+    position: relative;
+}
+
+.info-1 {
+    position: absolute;
+    font-size: 1.2vw;
+    display: inline-block;
+    line-height: normal;
+    width: 28%;
+    text-align: left;
+    font-family: Roboto-Condensed;
+    color: rgba(15, 15, 15, 0.68);
+    margin-top: 4%;
+    margin-left: -41%;
+    z-index: 10;
+}
+
+.info-2 {
+    position: absolute;
+    font-size: 1.2vw;
+    display: inline-block;
+    line-height: normal;
+    width: 27%;
+    text-align: left;
+    font-family: Roboto-Condensed;
+    color: rgba(15, 15, 15, 0.68);
+    margin-top: 4%;
+    margin-left: 2%;
+    z-index: 10;
+}
+
+.info-3 {
+    position: absolute;
+    display: inline-block;
+    line-height: normal;
+    width: 25%;
+    text-align: left;
+    font-family: Roboto-Condensed;
+    color: rgba(15, 15, 15, 0.68);
+    margin-left: -20%;
+    margin-top: 27%;
+    z-index: 10;
+    font-size: 1.1vw;
+}
+
+.info-4 {
+    position: absolute;
+    display: inline-block;
+    line-height: normal;
+    font-size: 1.2vw;
+    width: 20%;
+    text-align: left;
+    font-family: Roboto-Condensed;
+    color: rgba(15, 15, 15, 0.68);
+    margin-top: 32%;
+    margin-left: 23%;
+    z-index: 10;
+}
+
+/*Sets of years history*/
+.abus-year {
+    width: 100%;
+    position: absolute;
+    text-align: left;
+    z-index: 10;
+
+}
+
+.year-1989 {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    font-size: 2.5vw;
+    margin-top: 20%;
+    margin-left: 12%;
+}
+
+.year-2007 {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    font-size: 2.5vw;
+    margin-top: 23%;
+    margin-left: 35%
+}
+
+.year-2014 {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    font-size: 2.5vw;
+    margin-top: 20%;
+    margin-left: 57%;
+}
+
+.year-2015 {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    font-size: 2.5vw;
+    margin-top: 23%;
+    margin-left: 79%;
+}
+
+/*Open Core Values*/
+.abus-firstrow {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.abus-inside {
+    position: absolute;
+    width: 100%;
+}
+
+.abus-inside img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.abus-text-inside {
+
+    width: 100%;
+}
+
+.abus-text-inside span {
+    display: block;
+    text-align: center;
+    color: #2BACE2;
+    margin: 1vh auto;
+    font-size: 1.5vw;
+}
+
+.abus-text-inside p {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-family: "RobotoCondensed Roboto";
+}
+
+.abus-text-inside_1 p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-family: "RobotoCondensed Roboto";
+}
+
+.abus-text-inside_1 span {
+    display: block;
+    text-align: center;
+    color: #2BACE2;
+    margin: 1vh auto;
+    font-size: large;
+    width: 100%;
+}
+
+/*Responsive on mobile with 375 x 500*/
+@media all and (max-width: 380px) {
+    /*res header*/
+    .abus-flag {
+        display: none;
+    }
+
+    .abus-nav a {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .abus-logo {
+        width: 50%;
+    }
+
+    .abus-logo img {
+        height: 40px;
+    }
+
+    .abus-logo h6 {
+        line-height: 17px;
+    }
+
+    .abus-nav-2 ul {
+        margin-top: 0px;
+    }
+
+    .abus-nav-2 a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .abus-background {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .abus-text {
+        width: 80%;
+        text-align: left;
+    }
+
+    .abus-text span {
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    .abus-text p {
+        color: #fff;
+        display: block;
+        width: 80vw;
+
+        font-size: 1em;
+        /*position: absolute;*/
+        right: 1%;
+
+    }
+
+    /*responsive left col*/
+    .abus-glance-left {
+        display: none;
+    }
+
+    /*res for right col*/
+    .abus-glance-right > span {
+        font-size: 3em;
+    }
+
+    .abus-glance-right img {
+        width: 100vw;
+    }
+
+    /*set introduction*/
+    .abus-introduction {
+        width: 100vw;
+        background: #2BACE2;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-glance-right span {
+        font-size: 3em;
+    }
+
+    .abus-info {
+        width: 88vw;
+        margin: auto;
+    }
+
+    .abus-info p {
+        font-size: 1em;
+        line-height: 15px;
+    }
+
+    .abus-row {
+        padding: 0;
+        height: auto;
+    }
+
+    .abus-historic {
+        width: 100%;
+        height: auto;
+        padding: 0 !important;
+    }
+
+    .abus-Established {
+        display: inline-block;
+        width: 30% !important;
+        padding: 0px !important;
+    }
+
+    .abus-Established span {
+        font-size: 1.1em;
+    }
+
+    /*Set vision*/
+    .abus-backgroundImg {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-backgroundImg span {
+        text-align: center;
+    }
+
+    .abus-vision {
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .abus-vision img {
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+
+    .abus-insideOut {
+        width: 100%;
+    }
+
+    .abus-MTP {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-MTP p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set vision*/
+    .abus-Sky {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-Sky p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set mission*/
+    .abus-mission img {
+        width: 100%;
+    }
+
+    .mission-left {
+        padding-bottom: 5%;
+        height: auto;
+    }
+
+    .mission-left span {
+        color: #2BACE2;
+        display: block;
+        text-align: left;
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .mission-left li {
+        display: inline-block;
+        text-align: left;
+        font-size: large;
+        margin-top: 10px;
+        list-style-type: circle;
+    }
+
+    .mission-left li > span {
+        font-size: 0.9em;
+        color: #2BACE2;
+    }
+
+    /*Res for history*/
+    .abus-his-info {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-his-all span {
+        font-size: 3em;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .abus-his-info {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    /*Format year */
+    .year-1989, .year-2014 {
+        margin-top: 18%;
+    }
+
+    .year-2007, .year-2015 {
+        margin-top: 20%;
+    }
+
+    /*Set for core value*/
+    .abus-inside {
+        width: 100vw;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .abus-inside img {
+        width: auto;
+        height: auto;
+    }
+
+    .abus-text-inside {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw;
+    }
+
+    .abus-text-inside span {
+        font-size: 2em;
+
+    }
+
+    .abus-firstrow {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+
+    .abus-text-inside_1 {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw
+    }
+
+    .abus-text-inside_1 span {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .fa-res {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media all and (min-width: 390px) and (max-width: 490px) {
+
+    /*res header*/
+    .abus-flag {
+        display: none;
+    }
+
+    .abus-nav a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .abus-logo {
+        width: 40%;
+    }
+
+    .abus-logo img {
+        height: 40px;
+    }
+
+    .abus-logo h6 {
+        line-height: 17px;
+    }
+
+    .abus-nav-2 ul {
+        margin-top: 0px;
+    }
+
+    .abus-nav-2 a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .abus-nav-2 li a {
+        font-size: 17px;
+    }
+
+    .abus-background {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .abus-text {
+        width: 85%;
+        text-align: left;
+    }
+
+    .abus-text span {
+        font-size: 1.5em;
+        text-align: left;
+    }
+
+    .abus-text p {
+        color: #fff;
+        display: block;
+        width: 80vw;
+
+        font-size: 1em;
+        /*position: absolute;*/
+        right: 1%;
+        /*REs left col*/
+    }
+
+    .abus-glance-left {
+        display: none;
+    }
+
+    .abus-glance-right > span {
+        font-size: 3em;
+    }
+
+    .abus-glance-right img {
+        width: 100vw;
+    }
+
+    /*set introduction*/
+    .abus-introduction {
+        width: 100vw;
+        background: #2BACE2;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-glance-right span {
+        font-size: 3em;
+    }
+
+    .abus-info {
+        width: 88vw;
+        margin: auto;
+    }
+
+    .abus-info p {
+        font-size: 1em;
+        line-height: 15px;
+
+        padding: 0 !important;
+    }
+
+    .abus-row {
+        padding: 0;
+
+    }
+
+    .abus-historic {
+        width: 100%;
+        height: auto;
+        padding: 0 !important;
+    }
+
+    .abus-Established {
+        display: inline-block;
+        width: 33% !important;
+        padding: 0px !important;
+        margin-bottom: 3%;
+    }
+
+    .abus-Established span {
+        font-size: 1.1em;
+    }
+
+    /*Set vision*/
+    .abus-backgroundImg {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-backgroundImg span {
+        text-align: center;
+    }
+
+    .abus-vision {
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .abus-vision img {
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+
+    .abus-insideOut {
+        width: 100%;
+    }
+
+    .abus-MTP {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-MTP p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set vision*/
+    .abus-Sky {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-Sky p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set mission*/
+    .abus-mission img {
+        width: 100%;
+    }
+
+    .mission-left {
+        padding-bottom: 5%;
+        height: auto;
+    }
+
+    .mission-left span {
+        color: #2BACE2;
+        display: block;
+        text-align: left;
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .mission-left li {
+        display: inline-block;
+        text-align: left;
+        font-size: large;
+        margin-top: 10px;
+        list-style-type: circle;
+    }
+
+    .mission-left li > span {
+        font-size: 0.9em;
+        color: #2BACE2;
+    }
+
+    /*Set History*/
+    abus-his-info {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-his-all span {
+        font-size: 3em;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .abus-his-info {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    /*Set Core Value*/
+    .abus-inside {
+        width: 100vw;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .abus-inside img {
+        width: auto;
+        height: auto;
+    }
+
+    .abus-text-inside {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw;
+    }
+
+    .abus-text-inside span {
+        font-size: 2em;
+
+    }
+
+    .abus-firstrow {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+
+    .abus-text-inside_1 {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw
+    }
+
+    .abus-text-inside_1 span {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .fa-res {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media all and (min-width: 500px) and (max-width: 650px) {
+    /*res header*/
+    .abus-flag {
+        display: none;
+    }
+
+    .abus-nav a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .abus-logo {
+        width: 30%;
+    }
+
+    .abus-logo img {
+        height: 40px;
+    }
+
+    .abus-logo h6 {
+        line-height: 17px;
+    }
+
+    .abus-nav-2 ul {
+        margin-top: 0px;
+    }
+
+    .abus-nav-2 a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .abus-nav-2 li a {
+        font-size: 17px;
+    }
+
+    .abus-background {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .abus-text {
+        width: 85%;
+        text-align: left;
+        position: absolute;
+        right: 5%;
+        height: auto;
+        display: block;
+        bottom: 10%;
+    }
+
+    .abus-text span {
+        font-size: 2.5em;
+        text-align: left;
+    }
+
+    .abus-text p {
+        color: #fff;
+        display: block;
+        width: 80vw;
+
+        font-size: 1.2em;
+        /*position: absolute;*/
+        right: 1%;
+        /*REs left col*/
+    }
+
+    .abus-glance-left {
+        display: none;
+    }
+
+    .abus-glance-right > span {
+        font-size: 3em;
+    }
+
+    .abus-glance-right img {
+        width: 100vw;
+    }
+
+    /*set introduction*/
+    .abus-introduction {
+        width: 100vw;
+        background: #2BACE2;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-glance-right span {
+        font-size: 3em;
+    }
+
+    .abus-info {
+        width: 88vw;
+        margin: auto;
+    }
+
+    .abus-info p {
+        font-size: 1em;
+        line-height: 15px;
+
+        padding: 0 !important;
+    }
+
+    .abus-row {
+        padding: 0;
+
+    }
+
+    .abus-historic {
+        width: 100%;
+        height: auto;
+        padding: 0 !important;
+    }
+
+    .abus-Established {
+        display: inline-block;
+        width: 33% !important;
+        padding: 0px !important;
+        margin-bottom: 3%;
+    }
+
+    .abus-Established span {
+        font-size: 1.1em;
+    }
+
+    /*Set vision*/
+    .abus-backgroundImg {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-backgroundImg span {
+        text-align: center;
+    }
+
+    .abus-vision {
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .abus-vision img {
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+
+    .abus-insideOut {
+        width: 100%;
+    }
+
+    .abus-MTP {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-MTP p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set vision*/
+    .abus-Sky {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-Sky p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set mission*/
+    .abus-mission img {
+        width: 100%;
+    }
+
+    .mission-left {
+        padding-bottom: 5%;
+        height: auto;
+    }
+
+    .mission-left span {
+        color: #2BACE2;
+        display: block;
+        text-align: left;
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .mission-left li {
+        display: inline-block;
+        text-align: left;
+        font-size: large;
+        margin-top: 10px;
+        list-style-type: circle;
+    }
+
+    .mission-left li > span {
+        font-size: 0.9em;
+        color: #2BACE2;
+    }
+
+    /*Fixed History*/
+    abus-his-info {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-his-all span {
+        font-size: 3em;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .abus-his-info {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .info-1 {
+        margin-top: 3%;
+        font-size: 1.5vw;
+    }
+
+    .info-2 {
+        margin-top: 2%;
+        font-size: 1.5vw;
+    }
+
+    .info-3 {
+        width: 38%;
+        margin-top: 20%;
+        font-size: 1.5vw;
+    }
+
+    .info-4 {
+        font-size: 1.5vw;
+        margin-top: 24%;
+    }
+
+    .year-1989, .year-2014 {
+        margin-top: 14%;
+    }
+
+    .year-2007, .year-2015 {
+        margin-top: 16%;
+    }
+
+    /*Set Core Value*/
+    .abus-inside {
+        width: 100vw;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .abus-inside img {
+        width: auto;
+        height: auto;
+    }
+
+    .abus-text-inside {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw;
+    }
+
+    .abus-text-inside span {
+        font-size: 2em;
+
+    }
+
+    .abus-firstrow {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+
+    .abus-text-inside_1 {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw
+    }
+
+    .abus-text-inside_1 span {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .fa-res {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+@media all and (min-width: 660px) and (max-width: 780px) {
+    .abus-flag {
+        display: none;
+    }
+
+    .abus-nav a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .abus-logo {
+        width: 24%;
+    }
+
+    .abus-logo img {
+        height: 40px;
+    }
+
+    .abus-logo h6 {
+        line-height: 17px;
+    }
+
+    .abus-nav-2 ul {
+        margin-top: 0px;
+    }
+
+    .abus-nav-2 a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .abus-nav-2 li a {
+        font-size: 17px;
+    }
+
+    .abus-background {
+        width: 100%;
+        min-height: 300px;
+    }
+    /*Set left col and right col*/
+    .abus-glance-left {
+        display: none;
+    }
+    .abus-glance-right > span {
+        font-size: 3em;
+    }
+
+    .abus-glance-right img {
+        width: 100vw;
+    }
+    .abus-introduction {
+        width: 100vw;
+        background: #2BACE2;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-glance-right span {
+        font-size: 3em;
+    }
+
+    .abus-info {
+        width: 88vw;
+        margin: auto;
+    }
+
+    .abus-info p {
+        font-size: 1em;
+        line-height: 15px;
+
+        padding: 0 !important;
+    }
+
+    .abus-row {
+        padding: 0;
+
+    }
+
+    .abus-historic {
+        width: 100%;
+        height: auto;
+        padding: 0 !important;
+    }
+
+    .abus-Established {
+        display: inline-block;
+        width: 33% !important;
+        padding: 0px !important;
+        margin-bottom: 3%;
+    }
+
+    .abus-Established span {
+        font-size: 1.1em;
+    }
+
+    /*Set vision*/
+    .abus-backgroundImg {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-backgroundImg span {
+        text-align: center;
+    }
+
+    .abus-vision {
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .abus-vision img {
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+
+    .abus-insideOut {
+        width: 100%;
+    }
+
+    .abus-MTP {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-MTP p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set vision*/
+    .abus-Sky {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-Sky p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set mission*/
+    .abus-mission img {
+        width: 100%;
+    }
+
+    .mission-left {
+        padding-bottom: 5%;
+        height: auto;
+    }
+
+    .mission-left span {
+        color: #2BACE2;
+        display: block;
+        text-align: left;
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .mission-left li {
+        display: inline-block;
+        text-align: left;
+        font-size: large;
+        margin-top: 10px;
+        list-style-type: circle;
+    }
+
+    .mission-left li > span {
+        font-size: 0.9em;
+        color: #2BACE2;
+    }
+    /*sET  Core Value*/
+    .abus-coreValue{
+        width: 100vw;
+    }
+    .abus-glance-right img {
+        width: 100vw;
+    }
+    .abus-text-inside, .abus-text-inside_1 {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw;
+    }
+
+    .abus-text-inside span, .abus-text-inside_1 span {
+        font-size: 1.5em;
+    }
+    /*Fixed  history*/
+    abus-his-info {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+    .abus-his-all{
+        width: 100vw;
+    }
+
+    .abus-his-all span {
+        font-size: 3em;
+        text-align: center;
+        width: 100vw;
+    }
+    .info-1{
+        font-size:1.6vw;
+        margin-top: 5%;
+    }
+    .info-2{
+        font-size: 1.6vw;
+        margin-top: 4%;
+    }
+    .info-3{
+        font-size: 1.6vw;
+        width: 23%;
+        margin-top: 37%;
+    }
+    .info-4{
+        margin-top: 50%;
+        font-size: 1.6vw;
+    }
+    .year-1989, .year-2014{
+        font-size: 3.5vw;
+        margin-top: 29%;
+    }
+    .year-2007, .year-2015{
+        font-size: 3.5vw;
+        margin-top: 33%;
+    }
+
+}
+
+@media all and (min-width: 780px) and (max-width: 995px){
+    .abus-flag {
+        display: none;
+    }
+
+    .abus-nav a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .abus-logo {
+        width: 24%;
+    }
+
+    .abus-logo img {
+        height: 40px;
+    }
+
+    .abus-logo h6 {
+        line-height: 17px;
+    }
+
+    .abus-nav-2 ul {
+        margin-top: 0px;
+    }
+
+    .abus-nav-2 a {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .abus-nav-2 li a {
+        font-size: 17px;
+    }
+
+    .abus-background {
+        width: 100%;
+        min-height: 300px;
+    }
+    .abus-glance-left {
+        display: none;
+    }
+    .abus-glance-right > span {
+        font-size: 3em;
+    }
+    .abus-glance-right{
+       min-width: 100%!important;
+    }
+    .abus-glance-right img {
+        width: 100vw;
+    }
+    .abus-backgroundImg {
+        width: 100vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .abus-backgroundImg span {
+        text-align: center;
+    }
+
+    .abus-vision {
+        position: relative;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .abus-vision img {
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+
+    .abus-insideOut {
+        width: 100%;
+    }
+
+    .abus-MTP {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-MTP p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set vision*/
+    .abus-Sky {
+        display: block;
+        width: 100%;
+        height: 150px;
+    }
+
+    .abus-Sky p {
+        font-size: 1em;
+        width: 80%;
+        margin: auto !important;
+    }
+
+    /*set mission*/
+    .abus-mission img {
+        width: 100%;
+    }
+
+    .mission-left {
+        padding-bottom: 5%;
+        height: auto;
+    }
+
+    .mission-left span {
+        color: #2BACE2;
+        display: block;
+        text-align: left;
+        font-size: 1.1em;
+        width: 100%;
+    }
+
+    .mission-left li {
+        display: inline-block;
+        text-align: left;
+        font-size: large;
+        margin-top: 10px;
+        list-style-type: circle;
+    }
+    /*Set Core Value*/
+    .abus-coreValue{
+        width: auto;
+    }
+    .abus-inside img{
+        width: auto;
+    }
+    .abus-text-inside, .abus-text-inside_1 {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100vw;
+    }
+    /* Set History*/
+    .info-1{
+        margin-top: 5%;
+        font-size: 1.6vw;
+    }
+    .info-2{
+        font-size: 1.6vw;
+        margin-top: 3%;
+    }
+    .info-3{
+        width: 27%;
+        margin-top: 35%;
+        font-size: 1.6vw;
+    }
+    .info-4{
+        margin-top: 42%;
+        font-size: 1.6vw;
+    }
+    .year-1989, .year-2014{
+        font-size: 3.5vw;
+        margin-top: 24%;
+    }
+    .year-2007, .year-2015{
+        font-size: 3.5vw;
+        margin-top: 27%;
+    }
+}
+@media all and (min-width: 1000px) and (max-width: 1180px) {
+    .abus-logo {
+        width: 90%;
+
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .abus-logo img {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .abus-logo h6 {
+        font-size: 1em;
+    }
+
+    .abus-nav ul li {
+        margin-right: 1%;
+    }
+
+    .abus-nav-2 ul li a {
+        margin-right: 1%;
+        font-size: 1em;
+    }
+
+    /*Fixed history*/
+    .info-1 {
+        margin-top: 5%;
+        margin-left: -42%;
+    }
+
+    .info-3 {
+        width: 24%;
+        margin-top: 40%;
+        font-size: 1.2vw;
+    }
+
+    .info-4 {
+        margin-top: 50%;
+    }
+
+    .year-1989, .year-2014 {
+        margin-top: 30%;
+    }
+
+    .year-2007, .year-2015 {
+        margin-top: 33%;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 13800px) {
+    /*Fixed history*/
+    .info-3 {
+        margin-top: 29%;
+    }
+}

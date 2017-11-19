@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+	<style>
+		.triangle{
+				width: 0;
+				height: 0;
+				border-top: 5px solid transparent;
+				border-bottom: 5px solid transparent;
+				border-left: 10px solid blue;
+			
+		}
+		li .current {background: #1BBC9B;
+					color:#fff;}
+}
+	</style>
+	<script>
+		
+
+			$(document).ready(function(){
+				//Scroll page với các thẻ a.
+				$('#header a').click(function(){//tạo sự kiện cho các thẻ a nằm trong ID header
+					$('.current').removeClass("current");//loại bỏ tất cả class current
+					var posClick = $(this).attr('href');//lấy giá trị trong thuộc tính href,gắn vào posClick. posClick sẽ có dạng #xxxxx
+					var pos = $(posClick).position().top;//lấy khoảng cách từ id #xxxxx tới đầu trang gắn vào pos
+					$("[href='"+posClick+"']").addClass("current");//thêm class current vào thẻ có href bằng giá trị trong posClick
+					$('html, body').animate({
+						scrollTop:pos+20//lăn tới vị trí cách đầu trang 1 khoảng pos + 20 so với đầu trang
+					},1500);
+				});
+			});
+			
+			$(window).scroll(function(){
+			 var posA = $(window).scrollTop();//lấy vị trí hiện tại tính từ đầu trang tới thanh cuộn
+			 $('#wrapper').find('.wrap-inner').each(function(){//tìm các class wrap-inner trong id wrapper
+			 var posB = $(this).position().top;//lấy ra vị trí theo chiều dọc của mỗi class wrap-inner
+			 if(posB < posA){//khi cuộn tới vị trí B nhỏ hơn vị trí A
+			 $('.current').removeClass("current");//xóa hết các class current
+			 var pos = $(this).attr('id');//lấy id của vị trí hiện tại
+			 $("[href='#"+pos+"']").addClass("current");//thẻ a nào có href giống với id hiện tại thì thêm vào class current
+			 }
+			 });
+			});
+	</script>
+</head>
+<body>
+	<!--<div class="triangle"></div>
+	<table class="table" style= "background-color: yellow;">
+	<thead>
+		<tr>
+		  
+		  <th>Established</th>
+		  <th>Employees</th>
+		  <th>PRODUCTS</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+		  <td>1989</td>	   
+		  <td>2,500</td>
+		  <td>Jeans, dress shirts</td>	
+		
+  </tbody>
+</table>
+-->
+<header id = "header" class="wrap-inner"> 
+<div id = "portfolio" class="wrap-inner">
+<div id = "about-us" class="wrap-inner"> 
+<div id = "contact" class="wrap-inner">
+
+<div class="collapse navbar-collapse collapse-li" id="collapse">
+    <ul>
+        <li><a class="current" href="#header">HOME</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#about-us">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>  
+</div>
+
+</body>
+</html>

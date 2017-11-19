@@ -1,0 +1,721 @@
+﻿.ih-table, .vm-child > div, .vm-dad {
+    overflow: hidden;
+}
+
+    .triangle-div, .vm-child > div > p {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .cv-parts, .ih-table > div, .right-col {
+        vertical-align: top;
+    }
+
+@font-face {
+    font-family: Roboto-Condensed;
+    src: url(Roboto-Condensed.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoCondensed Bold';
+    src: url(RobotoCondensed-Bold.ttf);
+}
+
+.aboutUS-hInfo {
+    position: absolute;
+    z-index: 999;
+    bottom: 40%;
+    padding: 2% 2% 2% 3%;
+    text-align: right;
+    width: 100%;
+}
+
+.history img {
+            display: block;
+            width: 100%;
+            position: relative;
+            z-index: -1;
+        }
+
+        .hs-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .inside-container {
+            width: 100%;
+            position: absolute;
+            z-index: 3;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .hic-info {
+            font-size: 1.2vw;
+            color: black;
+            text-align: left;
+            line-height: normal;
+            display: inline-block;
+        }
+
+        .hc-col-1 {
+            top: 5%;
+        }
+
+        .hc-col-2 {
+            bottom: 0;
+        }
+
+        .hic-col-1 {
+            margin-top: 2%;
+            margin-left: 8.5%;
+            width: 30%;
+        }
+
+        .hic-col-2 {
+            margin-left: 13%;
+            width: 30%;
+        }
+
+        .hic-col-3 {
+            margin-left: 30%;
+            width: 30%;
+        }
+
+        .hic-col-4 {
+            margin-left: 12.5%;
+            width: 20%;
+        }
+
+        .hs-years {
+            color: white;
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            font-size: 2.5vw;
+        }
+
+        .year-a{
+            left: 12%;
+            top:44%;
+        }
+
+        .year-b{
+            left: 35%;
+        }
+
+        .year-c{
+            top:44%;
+            left: 57%;
+        }
+
+        .year-d{
+            left: 79%;
+        }
+
+
+    .aboutUS-hInfo span {
+        font-family: 'RobotoCondensed Bold';
+        color: #FCFF90;
+        font-size: 2em;
+        display: block;
+    }
+
+.core-value > span, .history span, .rc-introduction span, .right-col > span, .special-li, .vision-mission > span {
+    font-family: "RobotoCondensed Bold";
+}
+
+.aboutUS-hInfo p {
+    color: #fff;
+    display: block;
+    width: 80%;
+    text-align: justify;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    padding-right: 2%;
+}
+
+.AB-body {
+    display: table;
+    width: 100%;
+}
+
+.left-col {
+    display: table-cell;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+.right-col {
+    display: table-cell;
+    width: 75%;
+    float: right;
+}
+
+.left-col ul {
+    width: 80%;
+    margin: 15% auto auto;
+}
+
+.left-col li {
+    width: 100%;
+    padding-left: 10%;
+    position: relative;
+}
+
+.special-border {
+    border-bottom: 1px dashed #a9a9a9 !important;
+}
+
+.special-li {
+    background: #2bace2;
+    color: #fff;
+    padding-left: 5% !important;
+}
+
+.triangle-div {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    z-index: 99;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left: 5px solid #2BACE2;
+}
+
+.right-col > span {
+    display: block;
+    color: #2BACE2;
+    font-size: 2em;
+    margin: 3% 0;
+}
+
+.rc-introduction {
+    width: 100%;
+    background: #2BACE2;
+    text-align: center;
+    padding-top: 1vh;
+    height: auto;
+    font-size: 100%;
+}
+
+    .rc-introduction span {
+        display: block;
+        font-size: 3.5em;
+        color: #FCFF90;
+    }
+
+.clear-float {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.rc-introduction p {
+    color: #fff;
+    text-align: justify;
+    display: block;
+    width: 90%;
+    margin: 1vh auto;
+    font-size: 1.1em;
+}
+
+.right-col > img {
+    float: left;
+    display: block;
+    height: auto;
+}
+
+.intro-history {
+    width: 100%;
+    color: #fff;
+}
+
+.ih-table {
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid rgba(255,255,255,.4);
+    padding-left: 5%;
+    height: 100%;
+}
+
+    .ih-table > div {
+        display: inline-block;
+        padding-top: 10px;
+        font-size: 1.3em;
+        float: left;
+        text-align: left;
+        height: 60px;
+        line-height: normal;
+        margin-right: 1%;
+    }
+
+@media screen and (min-width:500px) {
+    .ih-table > div {
+        padding-top: 0;
+        display: inline-block;
+        font-size: 1.5em;
+        float: left;
+        text-align: left;
+        height: 60px;
+        line-height: 60px;
+        margin-right: 1%;
+        vertical-align: top;
+    }
+
+    .tb-header {
+        font-size: 1em !important;
+        color: #FCFF90;
+    }
+}
+
+.vm-child > div > p, .vm-dad {
+    margin: auto;
+    display: block;
+}
+
+.tb-header {
+    font-size: 1.1em;
+    color: #FCFF90;
+}
+
+.tb-typeA, .tb-typeB {
+    width: 30%;
+}
+
+.tb-typeC {
+    width: 35%;
+}
+
+.tb-typeD {
+    width: 65%;
+}
+
+.vision-mission {
+    width: 100%;
+    background-image: url('About us_hình/Miss.jpg');
+    background-size: 100% 100%;
+    padding-bottom: 5%;
+    background-attachment: fixed;
+}
+
+    .vision-mission > span {
+        color: #FCFF90;
+        font-size: 3.5em;
+        display: block;
+    }
+
+.vm-dad {
+    width: 80%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+    .vm-child, .vm-dad img {
+        width: 100%;
+    }
+
+.vm-child {
+    height: 100%;
+}
+
+    .vm-child > div {
+        display: block;
+        height: 190px;
+        position: relative;
+    }
+
+    .vm-child .vmc-li {
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    .vm-child > div:nth-child(2) {
+        background: #2BACE2;
+        color: #fff;
+    }
+
+    .vm-child > div > p {
+        position: relative;
+        width: 90%;
+        font-size: 95%;
+        height: auto;
+    }
+
+    .vm-child li {
+        font-size: 85%;
+    }
+
+.vmc-li {
+    width: 80%;
+    margin: 30px auto auto;
+    text-align: justify;
+}
+
+.cv-container, .cv-parts p, .cv-parts span, .history {
+    text-align: center;
+}
+
+.vmc-li > span {
+    color: #2BACE2;
+    display: block;
+    padding: 2% 0;
+    font-size: 1.2em;
+}
+
+.vmc-li li {
+    margin-top: 10px;
+    list-style-type: circle;
+}
+
+.history {
+    padding-top: 3%;
+    color: #2BACE2;
+    font-size: 2.2em;
+    height: auto;
+}
+
+    .history span {
+        display: block;
+        margin-bottom: 1vh;
+        font-size: 56px;
+    }
+
+    .history img {
+        width: 100%;
+        margin-bottom: 3%;
+        height: auto;
+    }
+
+.core-value {
+    width: 100%;
+    border-top: 1px solid #d3d3d3;
+    padding-top: 5%;
+}
+
+    .core-value > span {
+        display: block;
+        color: #2BACE2;
+        font-size: 2em;
+        margin: 2% 0;
+    }
+
+.cv-parts, .cv-parts img {
+    margin: auto;
+    display: block;
+}
+
+.cv-container {
+    display: block;
+}
+
+.cv-parts {
+    width: 80%;
+    padding-bottom: 1%;
+}
+
+    .cv-parts img {
+        width: 100%;
+    }
+
+    .cv-parts span {
+        display: block;
+        color: #2BACE2;
+        margin: 5% auto;
+    }
+
+    .cv-parts p {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+@media screen and (min-width:400px) {
+    .core-value > span, .right-col > span {
+        display: block;
+        color: #2BACE2;
+        font-size: 4em;
+        font-family: "RobotoCondensed Bold";
+    }
+
+    .cv-parts img {
+        display: block;
+        width: auto;
+        margin: auto;
+        height: 20vh;
+    }
+
+    .right-col > span {
+        margin: 2vh 0;
+    }
+
+    .core-value > span {
+        margin: 2% 0;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .aboutUS-hInfo span {
+        font-size: 1.5em;
+    }
+
+    .aboutUS-hInfo p {
+        color: #fff;
+        display: block;
+        width: 80%;
+        text-align: justify;
+        font-size: 80%;
+        position: absolute;
+        right: 0;
+        padding-right: 2%;
+    }
+}
+
+@media screen and (min-width:530px) {
+    .aboutUS-hInfo {
+        position: absolute;
+        z-index: 999;
+        bottom: 25%;
+        padding: 2% 2% 2% 3%;
+        text-align: right;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .left-col {
+        width: 0;
+        overflow: hidden;
+    }
+
+    .right-col {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:738px) {
+    .aboutUS-hInfo span {
+        line-height: normal;
+        font-family: 'RobotoCondensed Bold';
+        color: #FCFF90;
+        font-size: 3.5em;
+        display: block;
+    }
+
+    .aboutUS-hInfo p {
+        color: #fff;
+        display: block;
+        width: 60%;
+        text-align: justify;
+        font-size: 100%;
+        position: absolute;
+        right: 0;
+        padding-right: 2%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .cv-container {
+        display: table;
+        width:100%;
+    }
+
+    .cv-parts {
+        display: table-cell;
+        width: 32%;
+        height: 25vh;
+    }
+
+        .cv-parts p, .cv-parts span {
+            display: block;
+            text-align: center;
+        }
+
+        .cv-parts span {
+            color: #2BACE2;
+            margin: 1vh auto;
+        }
+
+        .cv-parts p {
+            width: 80%;
+            margin: auto;
+        }
+
+    .aboutUS-hInfo {
+        position: absolute;
+        z-index: 999;
+        bottom: 18%;
+        padding: 2% 2% 2% 3%;
+        text-align: right;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:970px) {
+    .vm-dad {
+        width: 80%;
+        background: #fff;
+        display: flex;
+        overflow: hidden;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .vm-child > div, .vm-child > div > p {
+        display: block;
+        position: relative;
+    }
+
+    .vm-dad img {
+        width: 45%;
+        height: 300px;
+    }
+
+    .vm-child {
+        width: 65%;
+        height: 100%;
+    }
+
+        .vm-child > div > p {
+            width: 90%;
+            margin: auto;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 90%;
+            height: auto;
+        }
+
+        .vm-child > div {
+            height: 150px;
+        }
+}
+
+@media screen and (min-width:1100px) {
+    .vm-child > div, .vm-child > div > p {
+        position: relative;
+        display: block;
+    }
+
+    .vm-dad img {
+        width: 50%;
+        height: auto;
+    }
+
+    .vm-child > div {
+        height: 190px;
+    }
+
+        .vm-child > div > p {
+            width: 90%;
+            margin: auto;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 100%;
+            height: auto;
+        }
+
+    .vmc-li li {
+        font-size: 100% !important;
+    }
+
+    .vmc-li > li span {
+        font-family: "RobotoCondensed Bold";
+        color: #000 !important;
+    }
+
+    .aboutUS-hInfo p {
+        color: #fff;
+        display: block;
+        width: 40%;
+        text-align: justify;
+        font-size: 100%;
+        position: absolute;
+        right: 0;
+        padding-right: 2%;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .history span, .right-col > span {
+        font-family: "RobotoCondensed Bold";
+    }
+
+    .right-col > img {
+        float: left;
+        display: block;
+        height: 70vh;
+    }
+
+    .ih-table > div {
+        padding-top: 0;
+        display: inline-block;
+        font-size: .9em;
+        float: left;
+        text-align: left;
+        height: 4vh;
+        line-height: 2vh;
+        margin-right: 1%;
+        vertical-align: top;
+    }
+
+    .history span {
+        display: block;
+        margin-bottom: 1vh;
+        font-size: 56px;
+    }
+
+    .history img {
+        width: 100%;
+        margin-bottom: 3%;
+        height: 70vh;
+    }
+
+    .cv-parts img {
+        display: block;
+        width: auto;
+        margin: auto;
+        height: 20vh;
+    }
+
+    .right-col > span {
+        display: block;
+        color: #2BACE2;
+        font-size: 4em;
+        margin: 2vh 0;
+    }
+
+    .cv-parts {
+        display: table-cell;
+        width: 32%;
+        height: 25vh;
+    }
+
+        .cv-parts span {
+            display: block;
+            text-align: center;
+            color: #2BACE2;
+            margin: 1vh auto;
+        }
+
+    .rc-introduction p {
+        height: 60vh !important;
+    }
+
+    .rc-introduction {
+        width: 100%;
+        background: #2BACE2;
+        text-align: center;
+        padding-top: 1vh;
+        height: 90vh;
+        font-size: 90%;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .rc-introduction p {
+        font-size: 1.5em;
+    }
+}

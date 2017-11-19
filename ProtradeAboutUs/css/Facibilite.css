@@ -1,0 +1,430 @@
+/*Set Font*/
+@font-face {
+    font-family: Roboto-Condensed;
+    src: url(RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoCondensed Bold';
+    src: url(RobotoCondensed-Bold.ttf);
+}
+
+* {
+    font-family: Roboto-Condensed;
+}
+
+/*End FOnt*/
+
+/*Set background*/
+.fa-background {
+    position: relative;
+    /*box-sizing: border-box;*/
+    height: 100vh;
+    width: 100vw;
+    background-image: url(FACILITIES_trangchu/Facilities-02.jpg);
+    background-size: 100% 100%;
+
+}
+
+.fa-menu {
+    position: fixed;
+    color: white;
+    width: 100%;
+    z-index: 9999;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    transition: all 1s;
+
+}
+
+/*Set logo*/
+.fa-logo {
+    width: 100%;
+    margin-left: 10%;
+
+}
+
+.fa-logo img {
+    float: left;
+    height: 70px;
+    margin-top: 5%;
+}
+
+.fa-logo h6 {
+    margin-top: 10%;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    line-height: normal;
+}
+
+.fa-flag {
+    position: absolute;
+    text-align: right;
+    right: 1%;
+    margin-top: 2.5%;
+}
+
+.fa-flag:before {
+    content: ' ' !important;
+    clear: both;
+}
+
+/*set navigator of menu*/
+.fa-nav {
+    margin-top: 1%;
+}
+
+.fa-nav ul {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.fa-nav ul li {
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.fa-nav ul li a {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fa-nav ul li a:hover {
+    color: rgba(252, 255, 144, 1);
+}
+
+/*SET SPAN FACILIES*/
+.fa-text {
+    position: absolute;
+    display: block;
+    top: 70%;
+    left: 75%;
+    transform: translateY(-50%);
+}
+
+.fa-text span {
+    font-size: 4em;
+    font-family: "RobotoCondensed Bold";
+    color: rgba(252, 255, 144, 1);
+}
+
+/*Set body*/
+.fa-body {
+    width: 100vw;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*Set the left column */
+.fa-left {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.fa-left ul {
+    width: 80%;
+    height: auto;
+    margin-top: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+    top: 0;
+}
+
+.fa-left ul li {
+    width: 100%;
+    position: relative;
+    line-height: 35px;
+    list-style-type: none;
+}
+
+.border-box {
+
+    border-bottom: 1px dashed black;
+}
+.border-box:hover a{
+    cursor: pointer;
+}
+
+.fa-left ul li a {
+    text-decoration: none;
+    font-family: "RobotoCondensed Roboto";
+    color: rgba(15, 15, 15, 1);
+    padding-left: 10%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    left: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid rgba(43, 172, 226, 1);
+    display: inline-block;
+
+}
+
+/*Set the right column*/
+.fa-right {
+    height: 1300px;
+    position: relative;
+    /*background-color: blue;*/
+    width: 75%;
+    padding: 0;
+    margin: 0;
+}
+
+/*Set img for background left*/
+.fa-rgbox-left {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* hình số 1*/
+.fa-img-fur1 {
+    width: 100%;
+    height: 25%;
+    position: relative;
+
+    overflow: hidden;
+    /*transform: scale(0);*/
+
+
+}
+
+.fa-img-fur1 img {
+    width: 100%;
+    position: absolute;
+    transition: all 1s ease-out;
+
+}
+
+.fa-img-fur1:hover img {
+    transform: scale(1.1, 1.2);
+    transition: all 1.5s ease-in-out;
+
+}
+
+.fa-img-fur1:hover h3 {
+    border-bottom: 2px solid rgba(253, 255, 72, 0.85);
+    color: rgba(253, 255, 72, 0.85);
+    /*width: 450px;*/
+    /*animation-delay: 5s;*/
+    /*animation-timing-function: linear;*/
+    /*animation-name: bounceInLeft;*/
+    width: 450px;
+/*transition: all 1s ;*/
+}
+/*Set text*/
+.txt-fur {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 7%;
+
+}
+
+.txt-fur a h3 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1;
+    font-family: "RobotoCondensed Bold";
+    color: white;
+    display: inline-block;
+
+}
+
+/*hình số 2*/
+.fa-img-fur2 {
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+    position: relative;
+}
+
+.fa-img-fur2 img {
+    width: 100%;
+    position: absolute;
+    transition: all 1s ease-out;
+}
+
+.fa-img-fur2:hover img {
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.1, 1.2);
+}
+
+.fa-img-fur2:hover h3 {
+    border-bottom: 2px solid rgba(253, 255, 72, 0.85);
+    color: rgba(253, 255, 72, 0.85);
+    width: 450px;
+    /*transition: all 1s ;*/
+}
+
+/*hình số 3*/
+.fa-img-fur3 {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.fa-img-fur3 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1.5s ease-out;
+}
+
+.fa-img-fur3:hover img {
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.1, 1.2);
+}
+
+.fa-img-fur3:hover h3 {
+    border-bottom: 2px solid rgba(253, 255, 72, 0.85);
+    color: rgba(253, 255, 72, 0.85);
+    width: 450px;
+    /*transition: all 1s ;*/
+}
+
+/*set img for background right*/
+.fa-rgbox-right {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.fa-img-fur4 {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.fa-img-fur4 img {
+    width: 100%;
+    position: absolute;
+    transition: all 1.5s ease-out;
+    height: 100%;
+}
+
+.fa-img-fur4:hover img {
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.1, 1.2);
+}
+
+.fa-img-fur4:hover h3 {
+    border-bottom: 2px solid rgba(253, 255, 72, 0.85);
+    color: rgba(253, 255, 72, 0.85);
+    width: 450px;
+    /*transition: all 1s ;*/
+}
+
+/*hình 5*/
+.fa-img-fur5 {
+    overflow: hidden;
+    width: 100%;
+    height: 25%;
+    position: relative;
+}
+
+.fa-img-fur5 img {
+    width: 100%;
+    position: absolute;
+    transition: all 1.5s ease-out;
+    height: 100%;
+}
+
+.fa-img-fur5:hover img {
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.1, 1.2);
+}
+
+.fa-img-fur5:hover h3 {
+    border-bottom: 2px solid rgba(253, 255, 72, 0.85);
+    color: rgba(253, 255, 72, 0.85);
+    width: 450px;
+    /*transition: all 1s ;*/
+}
+
+/*hình 6*/
+.fa-img-fur6 {
+    overflow: hidden;
+    width: 100%;
+    height: 25%;
+    position: relative;
+}
+
+.fa-img-fur6 img {
+    width: 100%;
+    position: absolute;
+    transition: all 1.5s ease-out;
+    height: 100%;
+}
+
+.fa-img-fur6:hover img {
+    transition: all 1.5s ease-in-out;
+    transform: scale(1.1, 1.2);
+}
+
+.fa-img-fur6:hover h3 {
+    border-bottom: 2px solid rgba(253, 255, 72, 0.85);
+    color: rgba(253, 255, 72, 0.85);
+    width: 450px;
+    /*transition: all 1s ;*/
+}
+/*R&D*/
+.fa-rd{
+    width: 80%;
+    /*background-color: yellow;*/
+    height: 60%;
+    z-index: 999999999999999999999999;
+    display:none;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    bottom: 20%;
+}
+
+.fa-ra-child {
+    background-color: #f5f5f5;
+    /*width: 100%;*/
+    /*height: 100%;*/
+
+}
+.fa-ra-child span{
+    display: inline-block;
+
+}
+.close-button{
+    display: inline-block;
+    margin-left: 90%;
+    margin-bottom: 2%;
+    transform: translateY(-50%);
+    color: blue;
+
+}
+.close-button i{
+    font-size: 30px;
+
+}
+.close-button:hover i{
+    cursor: pointer;
+}
+.swiper-slide>img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+}
+.fa-ra-child>span{
+    color: #2BACE2;
+    margin-left: 20px;
+    font-size: 35px;
+}
